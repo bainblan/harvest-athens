@@ -12,7 +12,7 @@ export default function Navbar() {
 
     return (
         <nav className="flex w-full justify-center bg-[#5F120C] px-[37px] py-[10px]">
-            <div className="flex h-fit justify-between w-[625px]">
+            <div className="flex h-fit justify-between w-[600px]">
                 <Button onClick={() => handleClick("/")} name="Home" />
                 <Button onClick={() => handleClick("/gospel")} name="Gospel" />
                 <Button onClick={() => handleClick("/leadership")} name="Leadership" />
