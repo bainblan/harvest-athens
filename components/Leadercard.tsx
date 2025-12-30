@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { StaticImageData } from "next/image";
 
 export default function Leadercard({ img, name, pos }: { img: StaticImageData, name: string, pos: string }) {
     return (
-        <div className="flex flex-col h-fit bg-[#FFF7EA] gap-[10px] px-[20px] py-[20px] items-center rounded-xl drop-shadow-[5px_3px_4px_rgba(0,0,0,0.3)]">
+        <div className="flex flex-col h-fit bg-[#FFF7EA] gap-[10px] px-[20px] py-[20px] items-center rounded-xl drop-shadow-[5px_3px_4px_rgba(0,0,0,0.3)] transition duration-200 ease-out hover:-translate-y-1 hover:scale-110">
             <Image
                 src={img}
                 alt={name}

@@ -1,7 +1,6 @@
 export default function Button({ onClick, name }: { onClick: () => void; name: string; }) {
-    
     return (
-        <button onClick={onClick} className="text-white font-playfair hover:underline underline-offset-4">
+        <button onClick={onClick} className="text-white  hover:underline underline-offset-4">
             {name}
         </button>
     );

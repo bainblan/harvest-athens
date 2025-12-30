@@ -2,14 +2,15 @@ import Image from "next/image";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import cross from "../../images/cross.jpg";
+import FadeIn from "../../components/FadeIn";
 
 export default function Gospel() {
     return (
-        <main className="min-h-screen flex flex-col justify-between bg-[#FFCBA7] gap-[100px]">
+        <main className="min-h-screen flex flex-col items-center justify-between bg-[#FFCBA7] gap-[100px]">
             <Navbar />
-            <h1 className="flex justify-center items-center text-[48px] font-playfair font-bold text-[#5F120C]">
+            <FadeIn direction="down" className="flex justify-center items-center text-[48px] font-playfair font-bold text-[#5F120C] drop-shadow-[5px_3px_4px_rgba(0,0,0,0.3)]">
                 How Can I Become a Follower of Jesus?
-            </h1>
+            </FadeIn>
             <div className="flex flex-col items-center">
                 <Image
                     src={cross}
@@ -18,7 +19,7 @@ export default function Gospel() {
                 />
             </div>
             <div className="flex flex-row w-[1228px] justify-between self-center text-black">
-                <div className="flex flex-col w-[348px] gap-[50px]">
+                <FadeIn direction="left" className="flex flex-col w-[348px] gap-[50px]">
                     <p className="font-bold font-Lato text-[24px] text-center">
                         Admit You are a Sinner and that your sin separates you from God.
                     </p>
@@ -32,8 +33,8 @@ export default function Gospel() {
                             -Romans 6:23
                         </p>
                     </div>
-                </div>
-                <div className="flex flex-col w-[348px] gap-[50px]">
+                </FadeIn>
+                <FadeIn direction="up" className="flex flex-col w-[348px] gap-[50px]">
                     <p className="font-bold font-Lato text-[24px] text-center">
                         Believe that Jesus, the Son of God, lived a perfect sinless life, died on the cross for our sins, and rose three days later from the grave.
                     </p>
@@ -47,8 +48,8 @@ export default function Gospel() {
                             -Romans 5:8
                         </p>
                     </div>
-                </div>
-                <div className="flex flex-col w-[348px] gap-[50px]">
+                </FadeIn>
+                <FadeIn direction="right" className="flex flex-col w-[348px] gap-[50px]">
                     <p className="font-bold font-Lato text-[24px] text-center">
                         Confess your sin to Jesus, asking Him to forgive you of your sin and to save you. Commit your life to Him and make Him your Savior and Lord.
                     </p>
@@ -56,7 +57,15 @@ export default function Gospel() {
                         &quot;that if you confess with your mouth Jesus as Lord, and believe in your heart that God raised Him from the dead, you will be saved; “for with the heart a person believes, resulting in righteousness, and with the mouth he confesses, resulting in salvation.”<br />
                         -Romans 10:9-10
                     </p>
-                </div>
+                </FadeIn>
+            </div>
+            <div className="flex flex-col justify-between w-fit h-fit gap-[26px]">
+                <FadeIn direction="down" className="flex justify-center items-center text-[48px] font-playfair font-bold text-[#5F120C]">
+                    Make a Decision?
+                </FadeIn>
+                <FadeIn direction="up" className="w-[790px] h-fit text-center text-black text-[24px] font-medium font-Lato">
+                    If you have made a decision to accept Christ as your Lord and Savior or would like to talk more about salvation, contact Cort McGowan at<br />864-770-5600.
+                </FadeIn>
             </div>
             <Footer />
         </main>
