@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="flex justify-start w-full">
                 Copyright &copy; Harvest Athens 2025
             </div>
-            <div className="flex h-fit justify-between w-[150px]">
+            <div className="flex h-fit justify-between w-[100px] md:w-[150px]">
                 <SocialButton
                     img={insta}
                     alt="Instagram"
