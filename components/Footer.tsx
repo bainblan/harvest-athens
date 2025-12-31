@@ -4,7 +4,7 @@ import groupme from "../images/group-me-white.png";
 
 export default function Footer() {
     return (
-        <footer className="flex w-full justify-center bg-[#5F120C] px-[37px] py-[10px]">
+        <footer className="flex w-full text-[12px] md:text-[14px] justify-center bg-[#5F120C] px-[10px] md:px-[37px] py-[10px]">
             <div className="flex justify-start w-full">
                 Copyright &copy; Harvest Athens 2025
             </div>

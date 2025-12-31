@@ -8,15 +8,14 @@ export default function Gospel() {
     return (
         <main className="min-h-screen flex flex-col items-center justify-between bg-[#FFCBA7] gap-[100px]">
             <Navbar />
-            <FadeIn direction="down" className="flex justify-center text-center items-center text-[48px] font-playfair font-bold text-[#5F120C] drop-shadow-[5px_3px_4px_rgba(0,0,0,0.3)]">
+            <FadeIn direction="down" className="flex justify-center text-center items-center text-[36px] md:text-[48px] font-playfair font-bold text-[#5F120C] drop-shadow-[5px_3px_4px_rgba(0,0,0,0.3)]">
                 How Can I Become a Follower of Jesus?
             </FadeIn>
             <FadeIn className="flex flex-col items-center">
                 <Image
                     src={cross}
                     alt="Wooden Cross necklace"
-                    height={300}
-                    className="rounded-lg"
+                    className="rounded-lg w-[200px] md:w-[300px]"
                 />
             </FadeIn>
             <div className="flex flex-col xl:flex-row gap-[50px] items-start w-fit justify-between self-center text-black">
@@ -61,10 +60,10 @@ export default function Gospel() {
                 </FadeIn>
             </div>
             <div className="flex flex-col justify-between w-fit h-fit gap-[26px]">
-                <FadeIn direction="down" className="flex justify-center items-center text-[48px] font-playfair font-bold text-[#5F120C]">
+                <FadeIn direction="down" className="flex justify-center items-center text-[32px] md:text-[48px] font-playfair font-bold text-[#5F120C]">
                     Make a Decision?
                 </FadeIn>
-                <FadeIn direction="up" className="w-[520px] md:w-[790px] h-fit text-center text-black text-[24px] font-medium font-Lato">
+                <FadeIn direction="up" className="w-[375px] md:w-[790px] h-fit text-center text-black text-[18px] md:text-[24px] font-medium font-Lato">
                     If you have made a decision to accept Christ as your Lord and Savior or would like to talk more about salvation, contact Cort McGowan at<br />864-770-5600.
                 </FadeIn>
             </div>

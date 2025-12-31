@@ -21,10 +21,10 @@ export default function Contact() {
                         className="self-center"
                         height={200}
                     />
-                    <p className="font-bold font-playfair text-[24px] text-black text-center">
+                    <p className="font-bold font-playfair text-[18px] md:text-[24px] text-black text-center">
                         Contact Cort McGowan with any questions:
                     </p>
-                    <p className="font-medium font-playfair text-[24px] text-black text-center">
+                    <p className="font-medium font-playfair text-[18px] md:text-[24px] text-black text-center">
                         (864)-770-5600
                     </p>
                 </FadeIn>
