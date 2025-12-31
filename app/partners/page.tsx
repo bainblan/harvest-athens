@@ -17,14 +17,17 @@ export default function Partners() {
                 <Partnercard
                     img={auburn}
                     name="HARVEST AUBURN"
+                    link="https://www.instagram.com/harvest_auburn/"
                 />
                 <Partnercard
                     img={bcm}
                     name="UGA BCM"
+                    link="https://www.ugabcm.org/"
                 />
                 <Partnercard
                     img={clevelandroad}
                     name="Cleveland Road"
+                    link="https://www.clevelandroadbaptist.org/"
                 />
             </FadeIn>
             <Footer />
