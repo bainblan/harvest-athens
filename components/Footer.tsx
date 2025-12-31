@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer className="flex w-full justify-center bg-[#5F120C] px-[37px] py-[10px]">
             <div className="flex justify-start w-full">
-                Copyright (c) Harvest Athens 2025
+                Copyright &copy; Harvest Athens 2025
             </div>
             <div className="flex h-fit justify-between w-[150px]">
                 <SocialButton
