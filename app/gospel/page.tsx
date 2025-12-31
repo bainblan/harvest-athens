@@ -11,14 +11,14 @@ export default function Gospel() {
             <FadeIn direction="down" className="flex justify-center text-center items-center text-[48px] font-playfair font-bold text-[#5F120C] drop-shadow-[5px_3px_4px_rgba(0,0,0,0.3)]">
                 How Can I Become a Follower of Jesus?
             </FadeIn>
-            <div className="flex flex-col items-center">
+            <FadeIn className="flex flex-col items-center">
                 <Image
                     src={cross}
                     alt="Wooden Cross necklace"
                     height={300}
                     className="rounded-lg"
                 />
-            </div>
+            </FadeIn>
             <div className="flex flex-col xl:flex-row gap-[50px] items-start w-fit justify-between self-center text-black">
                 <FadeIn direction="left" className="flex flex-col w-[348px] gap-[50px]">
                     <p className="font-bold font-Lato text-[24px] text-center">

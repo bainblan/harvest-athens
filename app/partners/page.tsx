@@ -13,7 +13,7 @@ export default function Partners() {
             <FadeIn direction="down" className="flex justify-center items-center text-[48px] font-playfair font-bold text-[#5F120C] drop-shadow-[5px_3px_4px_rgba(0,0,0,0.3)]">
                 Our Ministry Partners
             </FadeIn>
-            <div className="flex flex-col md:flex-row gap-[50px] items-center justify-between w-fit self-center">
+            <FadeIn className="flex flex-col md:flex-row gap-[50px] items-center justify-between w-fit self-center">
                 <Partnercard
                     img={auburn}
                     name="HARVEST AUBURN"
@@ -26,7 +26,7 @@ export default function Partners() {
                     img={clevelandroad}
                     name="Cleveland Road"
                 />
-            </div>
+            </FadeIn>
             <Footer />
         </main>
     );
