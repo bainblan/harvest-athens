@@ -4,8 +4,8 @@ import FadeIn from "../components/FadeIn";
 
 export default function Contact() {
     return (
-        <div className="flex bg-[#FFCBA7] justify-center px-[10px] py-[100px] gap-[10px]">
-            <div className="flex w-fit h-[370px] justify-between gap-[70px]">
+        <section className="flex bg-[#FFCBA7] justify-center px-[10px] py-[100px] gap-[10px]">
+            <div className="flex flex-col items-center md:flex-row w-fit h-fit justify-between gap-[70px]">
                 <FadeIn direction="left" className="flex flex-col w-[485px] h-full justify-between">
                     <p className="font-bold font-playfair text-[30px] text-[#BF603F] text-right">
                         <span className="text-[#5F120C]">More details</span> regarding logistics, safety and resources will be shared in the <span className="text-[#5F120C]">GroupMe</span>, join if you&apos;re interested!
@@ -29,6 +29,6 @@ export default function Contact() {
                     </p>
                 </FadeIn>
             </div>
-        </div>
+        </section>
     );
 }
