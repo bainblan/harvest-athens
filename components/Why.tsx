@@ -4,7 +4,7 @@ export default function Why() {
     return (
         <section className="flex bg-[#FFE2CE] justify-center px-[10px] py-[100px] gap-[10px]">
             <div className="flex flex-col items-center md:flex-row gap-[50px] w-fit h-fit justify-between">
-                <FadeIn direction="left" className="flex flex-col w-[375px] md:w-[475px] h-full gap-[16px] justify-between">
+                <FadeIn direction="left" className="flex flex-col w-[310px] md:w-[475px] h-full gap-[16px] justify-between">
                     <p className="font-bold font-playfair text-[22px] md:text-[30px] text-[#BF603F] md:text-right">
                         <span className="text-[#5F120C]">Our Mission</span> is to bring the Gospel of Jesus Christ to the lost people of downtown Athens, while abiding in the love of Christ.
                     </p>
@@ -12,7 +12,7 @@ export default function Why() {
                         On a nightly basis we find ourselves next to one of the largest bar scenes in the U.S., filled with broken people who turn to the world to fulfill them instead of our Lord. What better way can we love them than meeting them where they are and sharing the Truth with them?
                     </p>
                 </FadeIn>
-                <FadeIn direction="up" className="flex flex-col gap-[16px] w-[375px] md:w-[414px] h-full justify-between">
+                <FadeIn direction="up" className="flex flex-col gap-[16px] w-[310px] md:w-[414px] h-full justify-between">
                     <p className="font-bold font-playfair text-[32px] md:text-[48px] text-black text-center">
                         Why?
                     </p>

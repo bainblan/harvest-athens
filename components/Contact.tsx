@@ -6,7 +6,7 @@ export default function Contact() {
     return (
         <section className="flex bg-[#FFCBA7] justify-center px-[10px] py-[100px] gap-[10px]">
             <div className="flex flex-col items-center md:flex-row w-fit h-fit justify-between gap-[70px]">
-                <FadeIn direction="left" className="flex flex-col gap-[16px] w-[375px] md:w-[485px] h-full justify-between">
+                <FadeIn direction="left" className="flex flex-col gap-[16px] w-[310px] md:w-[485px] h-full justify-between">
                     <p className="font-bold font-playfair text-[22px] md:text-[30px] text-[#BF603F] text-right">
                         <span className="text-[#5F120C]">More details</span> regarding logistics, safety and resources will be shared in the <span className="text-[#5F120C]">GroupMe</span>, join if you&apos;re interested!
                     </p>
@@ -14,7 +14,7 @@ export default function Contact() {
                         If you don&apos;t feel comfortable or ready to share the Gospel in that manner, we&apos;d still love to have you! Being only a member of the prayer team is as valuable, if not more valuable! We&apos;d also love to equip you and help get you to the point that Gospel conversations feel both comfortable and natural!
                     </p>
                 </FadeIn>
-                <FadeIn direction="right" className="flex flex-col w-[414px] h-full justify-between">
+                <FadeIn direction="right" className="flex flex-col w-[250px] md:w-[414px] h-full justify-between">
                     <Image
                         src={qrcode}
                         alt="GroupMe QR Code"
