@@ -63,7 +63,7 @@ export default function Gospel() {
                 <FadeIn direction="down" className="flex justify-center items-center text-[32px] md:text-[48px] font-playfair font-bold text-[#5F120C]">
                     Make a Decision?
                 </FadeIn>
-                <FadeIn direction="up" className="w-[380px] md:w-[790px] h-fit text-center text-black text-[18px] md:text-[24px] font-medium font-Lato">
+                <FadeIn direction="up" className="w-[310px] md:w-[790px] h-fit text-center text-black text-[18px] md:text-[24px] font-medium font-Lato">
                     If you have made a decision to accept Christ as your Lord and Savior or would like to talk more about salvation, contact Cort McGowan at<br />864-770-5600.
                 </FadeIn>
             </div>
